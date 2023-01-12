@@ -1,13 +1,12 @@
 body{
 background-color: rgb(160, 248, 227);
-font-size: 14;
+font-size: 14px;
 font-family: 'Times New Roman', Times, serif;
-font;
 }
 
 
 h1{
-margin-top: 10;
+margin-top: 10px;
 border-bottom: 7px;
 border-color: rgb(0, 0, 0);
 border-bottom-style: solid;
@@ -29,13 +28,24 @@ p{
 }
 
 
-img{
+.photo{
 border: 1px;
 border-style: solid;
-border-width: 250;
+border-width: 1px;
+width: 250px;
 padding: 10px;
 opacity: .5;
 
 border-color: rgb(255, 0, 0);
 
+}
+.logo{
+    border: 1px;
+border-style: solid;
+border-width: 1px;
+width: 250px;
+padding: 10px;
+opacity: .5;
+
+border-color: rgb(255, 0, 0);
 }

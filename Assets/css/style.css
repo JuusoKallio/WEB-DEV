@@ -1,24 +1,60 @@
 body{
-background-color: rgb(160, 248, 227);
-font-size: 14px;
-font-family: 'Times New Roman', Times, serif;
+    background-color: aliceblue;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 
+
+section{
+    display: flex;
+   flex-direction: column;
+
+   
+}
+
+.main{
+    display: flex;
+}
+
+.navbar{
+    margin: 10;
+    background-color: aliceblue;
+    min-width: 200px;
+}
+
+article{
+    flex: 1;
+    
+}
+article:nth-of-type(3){
+    flex: 1;
+    
+}
+
+.flexContainer {
+    display: flex;
+    background-color: bisque;
+}
+
+.flexrowContainer{
+    display: flex;
+    align-items: stretch;
+    background-color: blueviolet;
+}
+
 h1{
-margin-top: 10px;
-border-bottom: 7px;
-border-color: rgb(0, 0, 0);
-border-bottom-style: solid;
-text-align: center;
-text-transform: uppercase;
+    margin-top: 10px;
+  
+    text-align: center;
+    text-transform: uppercase;
 }
 
 a:link{
-color: rgb(255, 0, 0);
+    color: rgb(255, 0, 0);
 }
 a:hover {
-color:rgb(0, 0, 255);
+    color:rgb(0, 0, 255);
 }
 
 
@@ -29,23 +65,22 @@ p{
 
 
 .photo{
-border: 1px;
-border-style: solid;
-border-width: 1px;
-width: 250px;
-padding: 10px;
-opacity: .5;
-
-border-color: rgb(255, 0, 0);
+    border: 1px;
+    border-style: solid;
+    border-width: 1px;
+    width: 250px;
+    padding: 10px;
+    opacity: .5;
+    border-color: rgb(255, 0, 0);
 
 }
 .logo{
     border: 1px;
-border-style: solid;
-border-width: 1px;
-width: 250px;
-padding: 10px;
-opacity: .5;
+    border-style: solid;
+    border-width: 1px;
+    width: 250px;
+    padding: 10px;
+    opacity: .5;
 
-border-color: rgb(255, 0, 0);
+    border-color: rgb(255, 0, 0);
 }
